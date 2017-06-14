@@ -1,9 +1,4 @@
-# simple-table
-Javascript Node JS Simple table print out array of object.
-
-
-## Samples
-const T = require('simple-table');
+const T = require('./index');
 
 const o = [
 	{col1:'col1, row1',col2:'col2, row1', col3:true, col4:123},

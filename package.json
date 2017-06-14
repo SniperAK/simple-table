@@ -1,0 +1,27 @@
+{
+  "name": "simple-table",
+  "version": "0.1.0",
+  "description": "A very simple code to printing table using array of object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SniperAK/simple-table.git"
+  },
+  "keywords": [
+    "nodejs",
+    "table",
+    "console"
+  ],
+  "author": "Alex Kang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SniperAK/simple-table/issues"
+  },
+  "homepage": "https://github.com/SniperAK/simple-table#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
