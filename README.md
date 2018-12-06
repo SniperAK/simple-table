@@ -1,26 +1,38 @@
-# simple-table
+# simple-table-console
 Javascript Node JS Simple table print out array of object.
 
+## Install 
 
-## Samples
-const T = require('simple-table');
+```
+npm i --save simple-table-console
+```
+
+## Bsage
+
+-  Basic
+
+```
+const Table = require('simple-table');
 
 const o = [
 	{col1:'col1, row1',col2:'col2, row1', col3:true, col4:123},
 	{col1:'col1, row2',col2:'col2, row2', col3:null}
 ];
 
-// Direct Printing
+Table(o);
 
-T(o);
+```
+-  Make String Array
 
-// Make String Array
-let result = T(o,{
+```
+let result = Table(o,{
 	print:false,
 });
+```
 
-console.log( result );
+- Custom Table
 
+```
 // border color, colname, formatter, align
 T(o,{
 	borderColor:'red',
@@ -37,3 +49,4 @@ T(o,{
 	},
 	align:'right'
 });
+```

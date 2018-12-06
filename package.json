@@ -1,5 +1,5 @@
 {
-  "name": "simple-table",
+  "name": "simple-table-console",
   "version": "0.1.0",
   "description": "A very simple code to printing table using array of object.",
   "main": "index.js",
